@@ -1,8 +1,8 @@
 # Learning Ionic Mateus
 
-API Servidora para APP Mobile
+##API Servidora para Aplicativo Lista
 
-Este projeto tem como objetivo, a partir da utilização do framework Spring, criar uma API, utilizando a linguagem de programação Java e a IDE Eclipse, utilizando o plug-in Spring Tool Suite, que serve uma aplicação mobile armazenando informações enviadas por essa aplicação em um banco de dados Postgresql e as enviando de volta a aplicação, esta api tambem armazena informações de todas as requests feitas pela aplicação tambem em uma base de dados PostgreSql, a comunicação com a aplicação mobile é feita a partir de mensagens JSON. Para o desenvolvimento desta aplicação foram utilizados:
+Este projeto tem como objetivo, a partir da utilização do framework Spring, criar uma API, utilizando a linguagem de programação Java e a IDE Eclipse, utilizando o plug-in Spring Tool Suite, que serve uma aplicação mobile armazenando informações enviadas por essa aplicação em um banco de dados Postgresql e as enviando de volta a aplicação, esta api também armazena informações de todas as requests feitas pela aplicação também em uma base de dados PostgreSql, a comunicação com a aplicação mobile é feita a partir de mensagens JSON. Para o desenvolvimento desta aplicação foram utilizados:
 
     • JDK 1.8_101;
 
@@ -35,5 +35,5 @@ No desenvolvimento desta aplicação foi criada uma classe JavaApiApplication que 
 		armazenando em banco de dados quando a aplicação envia uma informação (Método PUT) e os enviando
 		para a aplicação (Método GET);
     
-    •	ControllerRequest – redireciona requisições http envolvendo o histórico de requisições (retorna o historico
+    •	ControllerRequest – redireciona requisições http envolvendo o histórico de requisições (retorna o histórico
 		de requisições).
